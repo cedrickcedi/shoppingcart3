@@ -1,1 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+}
+
+/**
+ * !Navbar
+**/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #343a40;
+  color: white;
+  padding: 25px 60px;
+}
