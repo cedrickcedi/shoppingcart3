@@ -20,3 +20,10 @@ body {
   color: white;
   padding: 25px 60px;
 }
+
+.cart{
+  background-color: white;
+  color: #343a40;
+  font-size: 25px;
+  border-radius: 2px;
+}
