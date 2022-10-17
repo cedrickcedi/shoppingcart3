@@ -19,6 +19,7 @@ body {
   background-color: #343a40;
   color: white;
   padding: 25px 60px;
+  margin-bottom: 20px;
 }
 
 .cart{
@@ -37,5 +38,19 @@ body {
   background-color: red;
   color: white;
   padding: 3px;
+  border-radius: 4px;
+}
+
+/**
+* !Tee Designs
+**/
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 210px);
+}
+
+.item {
+  border: 2px solid rgb(83, 83, 83);
   border-radius: 4px;
 }
