@@ -7,8 +7,20 @@ import './style.css'
 
 let shop = document.getElementById("shop");
 
+let document.getElementsByClassName("bi-dash").onclick = function() {
+
+}
+
 console.log(shop);
 
 let generateShop = ()=>{
   return ``
 }
+
+let increment = () => {
+  console.log ("increment");
+}
+
+let decrement = () => {};
+
+let update = () => {};
