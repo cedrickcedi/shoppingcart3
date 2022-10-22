@@ -5,22 +5,14 @@ import './style.css'
 //**  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 //**` 
 
-let shop = document.getElementById("shop");
+let minusBtn = document.getElementsByClassName("bi-dash");
+let addBtn = document.getElementsByClassName("bi-plus");
+let cartAmount = document.getElementsByClassName("cartAmount");
 
-let document.getElementsByClassName("bi-dash").onclick = function() {
+minusBtn.addEventListener('click',()=>{
+  cartAmount.value = parseInt(cartAmount.value) - 1;
+});
 
-}
-
-console.log(shop);
-
-let generateShop = ()=>{
-  return ``
-}
-
-let increment = () => {
-  console.log ("increment");
-}
-
-let decrement = () => {};
-
-let update = () => {};
+addBtn.addEventListener('click',()=>{
+  cartAmount.value = parseInt(cartAmount) + 1;
+});
