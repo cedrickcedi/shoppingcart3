@@ -82,10 +82,12 @@ body {
   gap: 8px;
 }
 
-.bi-dash {
-  color: red;
-}
-
-.bi-plus {
-  color: green;
+.addtocart {
+  position: absolute;
+  width: 100%;
+  background-color: darkgray;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
 }
